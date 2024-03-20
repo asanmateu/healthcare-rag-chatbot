@@ -37,9 +37,7 @@ Next, navigate to the project root, start Docker, and run:
 make build
 ```
 
-This will run the ETL to load the data into your Neo4j instance and will start both BE and FE servers. 
-
-However, you can also start the web app by running:
+The build will start the servers, however, you can also do so with:
 
 ```
 make start
@@ -51,12 +49,9 @@ and stop all containers by running:
 make stop
 ```
 
-Interact with the chatbot on `localhost:8501`
+You can interact with the chatbot on `localhost:8501`
 
------
 
-Next up, I'd like to take some time to explore vector databases' full potential by building a few small apps.
-
-Nevertheless, I am planning to add soon a RAG evaluation system to this hospital graph RAG chatbot.
+Next up, I am planning to add a RAG evaluation system 📈 this hospital graph RAG chatbot. 
 
 
