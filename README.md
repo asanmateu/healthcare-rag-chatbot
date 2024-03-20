@@ -4,9 +4,8 @@ I decided to build this chatbot, with the help of Real Python's LLM RAG Chatbot 
 
 Along the way, I learned about LangChain, how and when to use graph databases, and how to quickly deploy LLM RAG apps with FastAPI and Streamlit.
 
-----
 
-Why don't you check it out? 
+## Why don't you check it out? 
 
 Start by cloning this repo and adding a .env file with the following environment variables:
 
@@ -51,6 +50,7 @@ make stop
 
 You can interact with the chatbot on `localhost:8501`
 
+## Coming up
 
 Next up, I am planning to add a RAG evaluation system 📈 this hospital graph RAG chatbot. 
 
