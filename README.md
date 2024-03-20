@@ -8,7 +8,9 @@ Along the way, I learned about LangChain, how and when to use graph databases, a
 
 ----
 
-Why don't you check it out? You can clone this repo and all you will have to do is add an .env file with the following environment variables:
+Why don't you check it out? 
+
+Start by cloning this repo and adding a .env file with the following environment variables:
 
 ```
 OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
