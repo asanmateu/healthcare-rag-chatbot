@@ -50,8 +50,5 @@ make stop
 
 You can interact with the chatbot on `localhost:8501`
 
-## Coming up
-
-Next up, I am planning to add a RAG evaluation system 📈 this hospital graph RAG chatbot. 
 
 
