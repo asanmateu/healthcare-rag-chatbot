@@ -1,4 +1,4 @@
-# Hospital LLM RAG Agent 🤖
+# Healthcare RAG Agent 🤖
 
 I decided to build this chatbot, with the help of Real Python's LLM RAG Chatbot [tutorial](https://realpython.com/build-llm-rag-chatbot-with-langchain), to have an LLM project to build upon as I learn new topics and experiment with new ideas.
 
