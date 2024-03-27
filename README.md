@@ -48,7 +48,7 @@ and stop all containers by running:
 make stop
 ```
 
-You can interact with the chatbot on `localhost:8501`
+You can interact with the chatbot on `localhost:8501`:
 
-
+<img width="1614" alt="Screenshot 2024-03-27 at 19 44 54" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/ef6de300-5dbd-41a0-b89f-34fbe94473bf">
 
