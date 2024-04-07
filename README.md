@@ -2,12 +2,11 @@
 
 I decided to build this chatbot, with the help of Real Python's LLM RAG Chatbot [tutorial](https://realpython.com/build-llm-rag-chatbot-with-langchain), to have an LLM project to build upon as I learn new topics and experiment with new ideas.
 
-Along the way, I learned about LangChain, how and when to use graph databases, and how to quickly deploy LLM RAG apps with FastAPI and Streamlit.
-
+Along the way, I learned about LangChain, how and when to use knowledge graphs, and how to quickly deploy LLM RAG apps with FastAPI and Streamlit.
 
 ## Why don't you check it out? 
 
-Start by cloning this repo and adding a .env file with the following environment variables:
+Start by cloning this repo and adding a `.env` file with the following environment variables:
 
 ```
 OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
@@ -51,4 +50,20 @@ make stop
 You can interact with the chatbot on `localhost:8501`:
 
 <img width="1614" alt="Screenshot 2024-03-27 at 19 44 54" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/ef6de300-5dbd-41a0-b89f-34fbe94473bf">
+
+You might also want to check the API docs on `localhost:8000`.
+
+## Database design
+
+It would be useful to look at the way the database has been structured to come up with some potential questions you want to make to the chatbot:
+
+<img width="500" alt="Screenshot 2024-04-07 at 23 45 47" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/4884891c-b715-452b-af37-5fe69b9bad9e">
+  
+### Node properties
+
+<img width="500" alt="Screenshot 2024-04-07 at 23 44 17" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/56c976ac-6b27-409b-a4e3-81e1caba70d5">
+
+### Relationship properties
+
+<img width="500" alt="Screenshot 2024-04-07 at 23 44 57" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/f6d8ebe5-e808-4e8e-9a4c-5e15d47fa25e">
 
