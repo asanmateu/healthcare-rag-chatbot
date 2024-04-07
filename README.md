@@ -29,13 +29,13 @@ HOSPITAL_QA_MODEL=gpt-3.5-turbo-0125
 CHATBOT_URL=http://host.docker.internal:8000/hospital-rag-agent
 ```
 
-Next, navigate to the project root, start Docker, and run:
+Next, navigate to the project root, start Docker, make sure your AuraDB instance is up and running, and then run:
 
 ```
 make build
 ```
 
-The build will start the servers, however, you can also do so with:
+The build will start the servers, however, you can also start the server with the command:
 
 ```
 make start
@@ -47,13 +47,14 @@ and stop all containers by running:
 make stop
 ```
 
-You can interact with the chatbot on `localhost:8501`:
+You can interact with the chatbot API on `localhost:8000`, and the chatbot UI on `localhost:8501`:
 
 <img width="1614" alt="Screenshot 2024-03-27 at 19 44 54" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/ef6de300-5dbd-41a0-b89f-34fbe94473bf">
 
-You might also want to check the API docs on `localhost:8000`.
 
-Make sure your AuraDB instance is up and running!
+
+
+
 
 ## Database design
 
