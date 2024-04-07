@@ -67,3 +67,6 @@ It would be useful to look at the way the database has been structured to come u
 
 <img width="500" alt="Screenshot 2024-04-07 at 23 44 57" src="https://github.com/asanmateu/healthcare-rag-chatbot/assets/62403518/f6d8ebe5-e808-4e8e-9a4c-5e15d47fa25e">
 
+## Common Errors
+
+It seems like the most common error is forgetting to check the state of your AuraDB instance since it seems like free instances go on standby after a while.
