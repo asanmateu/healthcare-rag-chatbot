@@ -4,7 +4,7 @@ I decided to build this chatbot, with the help of Real Python's LLM RAG Chatbot 
 
 Along the way, I learned about LangChain, how and when to use knowledge graphs, and how to quickly deploy LLM RAG apps with FastAPI and Streamlit.
 
-## Why don't you check it out? 
+## Getting started
 
 Start by cloning this repo and adding a `.env` file with the following environment variables:
 
