@@ -1,6 +1,6 @@
 # Healthcare RAG Agent 🤖
 
-I decided to build this chatbot, with the help of Real Python's LLM RAG Chatbot [tutorial](https://realpython.com/build-llm-rag-chatbot-with-langchain), to have an LLM project to build upon as I learn new topics and experiment with new ideas.
+I built this Agent with help of Real Python's LLM RAG Chatbot [tutorial](https://realpython.com/build-llm-rag-chatbot-with-langchain), to have an LLM project to build upon as I learn new topics and experiment with new ideas.
 
 Along the way, I learned about LangChain, how and when to use knowledge graphs, and how to quickly deploy LLM RAG apps with FastAPI and Streamlit.
 
